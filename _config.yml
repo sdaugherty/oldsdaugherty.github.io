@@ -1,3 +1,33 @@
-url: https://stephdaugherty.com
-name: Stephanie Daugherty
-description: 'Your story, beautifully told - Created with WordPress managed by 1&amp;1'
+# Site settings
+## Change the values as needed.
+title: Stephanie Daugherty
+email: sdaugherty@gmail.com
+description: "Static mirror of my personal blog.."
+keywords: "personal, resume"
+#url: "http://bitwiser.in/bitwiser-material" # the base hostname & protocol for your site
+url: "https://sdaugherty.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 5
+paginate_path: "page:num"
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+links:
+  facebook: stephanieerindaugherty
+  twitter: stephdaugherty
+  email: sdaugherty@gmail.com
+  github: sdaugherty/sdaugherty.github.io
+exclude:
+  - bower_components
+  - README.md
+full_name: Stephanie Daugehrty
+
+##set this to enable disqus commenting
+#disqus: bitwiser
+
+##set this to enable google analytics
+#ga_id: analyticsID
+#ga_domain: bitwiser.in
